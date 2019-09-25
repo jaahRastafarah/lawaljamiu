@@ -107,6 +107,13 @@ body{
     h3{
         font-size:1.3rem;
     }
+    .caption{
+        top: 18%;
+        z-index: 1;
+    }
+    .home-inner img{
+        height: 500px;
+    }
     .card{
          width: 100%;
     }
