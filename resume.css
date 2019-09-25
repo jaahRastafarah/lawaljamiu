@@ -30,11 +30,7 @@ body{
   text-transform: uppercase;
     
 }
-.date{
-    display: flex;
-    justify-content: flex-end;
-    align-content: flex-end;
-}
+
 .design{
     border-right: 1px solid #1ebba3;
 }
@@ -50,6 +46,15 @@ li.lead{
     font-family: 'Times New Roman', Times, serif;
     color: #fff;
     font-size: 1.1rem;
+}
+li.lead.leader{
+    margin-left: 0;
+}
+.date{
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    color: #1ebba3;
 }
 h5{
     color: #1ebba3;
@@ -76,4 +81,5 @@ h5{
     .lead{
         font-size: 1rem;
     }
+  
 }
